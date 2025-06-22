@@ -19,7 +19,7 @@ class Product {
         return "Product ID: " + id + ", Name: " + name + ", Category: " + category;
     }
 }
-public class ProductSearch {
+public class ProductSearch{
     public static Product searchUsingLinear(Product[] products, int targetId) {
         for (Product p : products) {
             if (p.id == targetId) {
