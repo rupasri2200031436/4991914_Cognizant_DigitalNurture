@@ -1,6 +1,3 @@
-sET SERVEROUTPUT ON;
-
--- Create the procedure
 CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest AS
 BEGIN
   UPDATE savings_accounts

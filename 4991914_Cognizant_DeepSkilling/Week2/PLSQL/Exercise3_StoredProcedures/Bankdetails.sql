@@ -1,14 +1,4 @@
--- Drop existing tables if needed
-BEGIN
-  EXECUTE IMMEDIATE 'DROP TABLE employees';
-  EXECUTE IMMEDIATE 'DROP TABLE accounts';
-  EXECUTE IMMEDIATE 'DROP TABLE savings_accounts';
-EXCEPTION
-  WHEN OTHERS THEN NULL;
-END;
-/
-
--- Table for savings accounts 
+--Table for savings accounts 
 CREATE TABLE savings_accounts (
   account_id     NUMBER PRIMARY KEY,
   customer_id    NUMBER,

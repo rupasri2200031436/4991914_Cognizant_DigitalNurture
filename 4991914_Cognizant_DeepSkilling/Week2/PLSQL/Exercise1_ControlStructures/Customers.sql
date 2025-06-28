@@ -1,4 +1,3 @@
--- Customers Table
 CREATE TABLE customers (
   customer_id   NUMBER PRIMARY KEY,
   name          VARCHAR2(100),
@@ -27,5 +26,3 @@ INSERT INTO loans VALUES (101, 1, 6.5, SYSDATE + 15);
 INSERT INTO loans VALUES (102, 2, 7.0, SYSDATE + 45);  
 INSERT INTO loans VALUES (103, 3, 5.5, SYSDATE + 10);  
 INSERT INTO loans VALUES (104, 4, 8.0, SYSDATE + 5);   
-
-

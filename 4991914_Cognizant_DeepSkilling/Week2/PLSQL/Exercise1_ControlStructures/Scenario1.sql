@@ -1,3 +1,4 @@
+SET SERVEROUTPUT ON;
 BEGIN
   FOR cust_rec IN (SELECT customer_id, age FROM customers) LOOP
     IF cust_rec.age > 60 THEN
@@ -14,3 +15,4 @@ BEGIN
   COMMIT;
 END;
 /
+

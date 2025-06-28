@@ -1,6 +1,3 @@
-SET SERVEROUTPUT ON;
-
--- Create the procedure
 CREATE OR REPLACE PROCEDURE TransferFunds (
   from_account IN NUMBER,
   to_account IN NUMBER,

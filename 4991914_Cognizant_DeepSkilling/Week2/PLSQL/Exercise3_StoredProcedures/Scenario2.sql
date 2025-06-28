@@ -1,5 +1,3 @@
-SET SERVEROUTPUT ON;
-
 CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus (
   dept_id IN NUMBER,
   bonus_pct IN NUMBER
